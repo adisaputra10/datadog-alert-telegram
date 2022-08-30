@@ -39,10 +39,7 @@ URL = https://domainnotification
 # How to Test
 - Run webhook receiver -> ` python scripts/datadog_webhooks/telegram_webhooks.py`
 
-- Create Testing Public URL using ngrok 
- -> `ngrok http 8090`
-
-- Update datadog webhook configuration with Ngrok URL **( use https one)**
+- Create Testing Public URL 
 
 - Login to Datadog and configure Monitor to send alert to Webhook
 
